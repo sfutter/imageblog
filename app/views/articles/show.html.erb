@@ -8,6 +8,9 @@
   <%= @article.text %>
 </p>
 
+<div>
+	<%= image_tag @article.image.url(:medium) %>
+</div>
 
 <h2>Comments</h2>
 <%= render @article.comments %>
@@ -17,3 +20,4 @@
 
 <%= link_to 'Back', articles_path %>
 <%= link_to 'Edit', edit_article_path(@article) %>
+

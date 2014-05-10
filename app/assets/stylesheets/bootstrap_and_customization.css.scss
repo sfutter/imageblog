@@ -1,8 +1,12 @@
 $body-bg: #ecf0f1;
-//$navbar-height: 50px;
+$navbar-height: 200px;
 $brand-primary: #f39c12;
 $jumbotron-bg: #bdc3c7;
 $btn-default-bg: #f1c40f;
+
+
+$font-size-base: 30px;
+
 
 @import 'bootstrap';
 
@@ -12,4 +16,15 @@ $btn-default-bg: #f1c40f;
 
 .navbar-brand {
 	font-weight: bold;
+	background: url(logo2.png) no-repeat left center;
+  	height: 100px;
+  	width: 200px;
+  	text-align: center;
 }
+
+ul li {
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+$font-family-serif: Georgia;
